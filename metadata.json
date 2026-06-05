@@ -1,0 +1,8 @@
+{
+  "name": "Anupama EM - Cyber Portfolio",
+  "description": "A high-performance, 3D-integrated portfolio for Anupama E M, a Full Stack Developer specializing in React.js, NestJS, and AWS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
