@@ -177,10 +177,7 @@ const Hero: React.FC = () => {
             ANUPAMA E M
           </h2>
           <h1 className="text-4xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight text-white drop-shadow-2xl">
-            Building Scalable Full Stack <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-cyan to-cyber-purple drop-shadow-lg">
-              Systems & 3D Experiences
-            </span>
+           Turning Ideas into Scalable Applications <br />
           </h1>
           <p className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-8 font-light drop-shadow-md bg-cyber-black/40 backdrop-blur-sm rounded-xl p-4 border border-white/5">
             Full Stack Developer specializing in React.js, NestJS, and AWS.

@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ProjectItem } from '../types';
-import { ExternalLink, Github } from 'lucide-react';
 
 const projects: ProjectItem[] = [
   {
@@ -31,6 +30,20 @@ const projects: ProjectItem[] = [
     description: "Created a relationship-based calling application featuring 3D animated contact bubbles with dynamic sizing. Designed custom physics-based tap-to-expand gestures and smooth rendering.",
     tech: ["React Native", "Three.js", "React Native Reanimated", "JavaScript"],
     highlightColor: "border-cyber-purple"
+  },
+  {
+    title: "3D Fruit Ninja",
+    subtitle: "Gesture Recognition Game",
+    description: "Built an immersive browser-based 3D slicing game using Three.js with real-time physics, collision detection, and smooth frame-rate rendering. Integrated MediaPipe hand-tracking to support touchless gesture slice events via low-latency index-finger tracking.",
+    tech: ["Three.js", "MediaPipe", "JavaScript", "Physics Engine"],
+    highlightColor: "border-cyber-purple"
+  },
+  {
+    title: "Internal Work Tracking App",
+    subtitle: "Task Tracking & Workflow",
+    description: "Built a cross-platform internal workflow and task-tracking mobile application using React Native (Expo) featuring real-time task updates, role-based access control (RBAC), and push notification alerts for operational teams. Developed a reusable component library standardizing shared UI patterns.",
+    tech: ["React Native", "Expo", "AWS Amplify", "Firebase", "REST APIs"],
+    highlightColor: "border-cyber-green"
   }
 ];
 
@@ -59,10 +72,6 @@ const Projects: React.FC = () => {
                     {project.title}
                   </h3>
                   <p className="text-xs font-mono text-cyber-dim mt-1">{project.subtitle}</p>
-                </div>
-                <div className="flex gap-3">
-                  <Github size={18} className="text-gray-400 hover:text-white cursor-pointer" />
-                  <ExternalLink size={18} className="text-gray-400 hover:text-white cursor-pointer" />
                 </div>
               </div>
               
