@@ -5,14 +5,14 @@ import { ExperienceItem } from '../types';
 const experiences: ExperienceItem[] = [
   {
     company: "QSignage",
-    role: "React Developer / Full Stack Engineer (Sole Developer)",
+    role: "Full Stack Engineer",
     period: "Aug 2025 – Present",
     location: "Erode, IN",
     highlight: true,
     description: [
-      "Sole engineer on a production digital signage platform — architected and shipped features across frontend (React.js, TypeScript) and backend (NestJS) within an Nx Monorepo.",
+      "Core Full Stack Engineer driving product architecture and end-to-end feature delivery across frontend (React.js, TypeScript) and backend (NestJS) within an Nx Monorepo, collaborating with product management to define technical specifications.",
       "Built real-time device synchronization for 20+ screens using Socket.IO multi-room architecture, achieving sub-second update latency for playlists, volume, and device state.",
-      "Redesigned DynamoDB data model using PK/SK and GSI access patterns, significantly reducing RCU consumption and eliminating full table scans at scale.",
+      "Redesigned DynamoDB schemas using PK/SK and GSI access patterns, eliminating full table scans and bottlenecks while cutting RCU consumption and AWS operational costs at scale.",
       "Engineered media upload and delivery pipeline using AWS S3 + CloudFront CDN, cutting S3 egress costs and improving content load speed for end devices.",
       "Managed end-to-end deployments via AWS EC2 and Amplify with CI/CD pipelines ensuring zero-downtime releases.",
       "Delivered interactive UI features using Three.js and MediaPipe for gesture-based, touchless interactions."
@@ -22,26 +22,16 @@ const experiences: ExperienceItem[] = [
   {
     company: "BluGraph Technologies",
     role: "Trainee Software Engineer",
-    period: "Nov 2024 – Aug 2025",
+    period: "July 2024 – Aug 2025",
     location: "Bangalore, IN",
     description: [
       "Developed and shipped 2 production applications (web + mobile) serving 2,000+ internal users using React.js, React Native, and Expo.",
       "Integrated 20+ REST APIs with authentication and real-time features using AWS Cognito, Amplify, and Firebase.",
-      "Migrated mobile application to Expo framework, accelerating development cycles and reducing build complexity.",
-      "Contributed to testing and release workflows using Vitest and Playwright within Agile sprint practices."
+      "Developed cross-platform mobile applications using the Expo framework, accelerating development cycles and minimizing build complexity.",
+      "Collaborated with cross-functional product and QA teams during Agile sprint planning, actively contributing to peer code reviews and authoring internal API documentation.",
+      "Managed rigorous testing and release workflows leveraging Vitest and Playwright to guarantee high code quality and software reliability across web deployments."
     ],
-    tech: ["React.js", "React Native", "Expo", "AWS Cognito", "Amplify", "Firebase", "Vitest", "Playwright"]
-  },
-  {
-    company: "Novizco Infotech",
-    role: "Spring Boot Intern",
-    period: "July 2024 – Oct 2024",
-    location: "Palakkad, IN",
-    description: [
-      "Independently built and tested 50+ REST APIs using Spring Boot, Spring Security, and PostgreSQL.",
-      "Implemented JWT and Firebase Authentication for secure user management and payment-related workflows."
-    ],
-    tech: ["Spring Boot", "Spring Security", "PostgreSQL", "JWT", "Firebase Auth"]
+    tech: ["React.js", "React Native", "Expo", "AWS Cognito", "Amplify", "Firebase", "Vitest", "Playwright", "REST APIs", "Agile"]
   }
 ];
 
@@ -87,7 +77,7 @@ const Experience: React.FC = () => {
                 {exp.description.map((desc, i) => (
                   <li key={i} className="text-gray-400 text-sm flex items-start gap-2">
                     <span className="mt-1.5 min-w-[6px] min-h-[6px] rounded-full bg-cyber-purple/40"></span>
-                    <span className={exp.highlight && desc.includes("Sole engineer") ? "text-cyber-green font-medium" : ""}>
+                    <span className={exp.highlight && desc.includes("Core Full Stack Engineer") ? "text-cyber-green font-medium" : ""}>
                       {desc}
                     </span>
                   </li>

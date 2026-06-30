@@ -6,28 +6,28 @@ const projects: ProjectItem[] = [
   {
     title: "PlayerQ",
     subtitle: "Digital Signage Video Player (IoT)",
-    description: "Built a high-performance digital signage player deployed to 30 screens, featuring real-time playlist sync via Socket.IO with sub-second update latency. Engineered bi-directional Raspberry Pi (PIQ) integration using HTTP APIs and custom command event structures.",
-    tech: ["React.js", "Node.js", "Socket.IO", "AWS Amplify", "Raspberry Pi"],
+    description: "Built a high-performance digital signage player deployed to 30 screens with real-time playlist sync via Socket.IO. Engineered bi-directional Raspberry Pi (PIQ) integration and configured a PWA architecture with IndexedDB for local asset caching to ensure zero-latency offline video execution.",
+    tech: ["React.js", "Node.js", "Socket.IO", "AWS Amplify", "Raspberry Pi", "PWA / IndexedDB"],
     highlightColor: "border-cyber-green"
   },
   {
     title: "LPQ",
     subtitle: "Location Partner Content Manager",
-    description: "Built a full-stack media content upload and playlist manager with role-based access control (RBAC). Engineered automated-compression media pipelines using AWS S3 + CloudFront CDN, and designed optimized DynamoDB schemas.",
-    tech: ["React.js", "Node.js", "AWS S3", "CloudFront CDN", "DynamoDB", "AWS EC2"],
+    description: "Built a full-stack media content upload and playlist manager using React.js, Node.js, and MongoDB/DynamoDB with role-based access control (RBAC). Engineered secure media upload pipelines to AWS S3 + CloudFront CDN and designed optimized DynamoDB schemas to eliminate full-table scans.",
+    tech: ["React.js", "Node.js", "AWS S3", "CloudFront CDN", "DynamoDB", "MongoDB", "AWS EC2"],
     highlightColor: "border-cyber-cyan"
   },
   {
     title: "Visitor Management App",
     subtitle: "Cross-Platform Mobile Application",
-    description: "Developed a cross-platform mobile application using React Native and Expo for managing visitor entry, checkout workflows, and logs. Integrated automated cloud synchronization and notification alerts.",
+    description: "Developed a cross-platform mobile application using React Native and Expo for managing visitor entry, check-in/out workflows, and real-time entry logs. Implemented secure cloud sync using AWS Amplify and Firebase Realtime Database with push notification alerts.",
     tech: ["React Native", "Expo", "AWS Amplify", "Firebase RTDB"],
     highlightColor: "border-gray-700"
   },
   {
     title: "My7",
     subtitle: "3D Animation Personal Calling App",
-    description: "Created a relationship-based calling application featuring 3D animated contact bubbles with dynamic sizing. Designed custom physics-based tap-to-expand gestures and smooth rendering.",
+    description: "Created a relationship-based calling application featuring 3D animated contact bubbles with dynamic sizing based on user interaction frequency. Designed custom physics-based tap-to-expand gestures and smooth rendering with Three.js and React Native Reanimated.",
     tech: ["React Native", "Three.js", "React Native Reanimated", "JavaScript"],
     highlightColor: "border-cyber-purple"
   },

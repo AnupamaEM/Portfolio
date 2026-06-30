@@ -7,22 +7,22 @@ const skillData: SkillCategory[] = [
   {
     title: "Languages & Frontend",
     icon: Code2,
-    skills: ["TypeScript", "JavaScript (ES6+)", "React.js", "Next.js", "React Native (Expo)", "Three.js", "MediaPipe"]
+    skills: ["TypeScript", "JavaScript (ES6+)", "React.js", "Next.js", "React Native (Expo)", "HTML5", "CSS3", "Three.js", "MediaPipe"]
   },
   {
     title: "Backend & API",
     icon: Server,
-    skills: ["Node.js (Express)", "NestJS", "REST APIs", "Socket.IO", "Spring Boot", "JWT Authentication"]
+    skills: ["Node.js", "Express.js", "NestJS", "REST APIs", "Socket.IO", "Spring Boot", "OpenAI API"]
   },
   {
     title: "Cloud & DevOps",
     icon: Cloud,
-    skills: ["AWS (S3, EC2, Amplify)", "CloudFront CDN", "Cognito", "Firebase Auth", "CI/CD Pipelines", "Git / GitHub"]
+    skills: ["AWS (S3, EC2, Amplify)", "Cognito", "CloudFront CDN", "Git", "Docker", "Firebase", "CI/CD Pipelines"]
   },
   {
     title: "Databases & Workflows",
     icon: Database,
-    skills: ["DynamoDB", "MongoDB", "PostgreSQL", "MySQL", "Vitest", "Playwright", "Postman", "Agile / Scrum"]
+    skills: ["MongoDB", "MySQL", "PostgreSQL", "DynamoDB", "Vitest", "Playwright", "Postman", "Agile / Scrum"]
   }
 ];
 

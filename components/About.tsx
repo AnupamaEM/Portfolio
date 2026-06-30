@@ -15,9 +15,9 @@ const About: React.FC = () => {
           <span className="text-cyber-purple font-mono">01.</span> About Me
         </h2>
         <p className="text-lg text-gray-300 leading-relaxed text-justify">
-          I am a <span className="text-white font-semibold">Full Stack Developer</span> with 2 years of experience building and shipping cloud-scalable applications across modern web, mobile, and real-time environments. My core expertise lies in architecting <span className="text-cyber-cyan">real-time communication systems</span> via Socket.IO, crafting optimized media delivery pipelines using <span className="text-cyber-cyan">AWS S3 and CloudFront CDN</span>, and designing highly scalable NoSQL schemas with DynamoDB.
+          I am a <span className="text-white font-semibold">Full Stack Developer (MERN)</span> with 2 years of production experience building and shipping cloud-scalable applications across modern web, mobile, and real-time environments. My core expertise lies in architecting <span className="text-cyber-cyan">real-time communication systems</span> via Socket.IO, crafting optimized media delivery pipelines using <span className="text-cyber-cyan">AWS S3 and CloudFront CDN</span>, and designing highly scalable database architectures across both SQL and NoSQL environments.
           <br /><br />
-          I specialize in developing cross-platform applications with <span className="text-cyber-green">React, React Native, and NestJS</span> within Nx Monorepos, as well as managing deployments on AWS. Beyond traditional stack boundaries, I build custom 3D web features utilizing <span className="text-cyber-purple">Three.js and MediaPipe</span> for gesture-based, touchless user interactions.
+          I specialize in developing cross-platform applications with <span className="text-cyber-green">React, React Native (Expo), and NestJS</span> within Nx Monorepos, establishing automated containerized environments with <span className="text-cyber-purple">Docker</span>, and configuring robust CI/CD pipelines for zero-downtime deployments. Beyond backend and frontend boundaries, I build interactive 3D web features using Three.js and MediaPipe, and integrate cognitive AI capabilities via the <span className="text-cyber-green">OpenAI API</span>.
         </p>
       </motion.div>
     </section>
